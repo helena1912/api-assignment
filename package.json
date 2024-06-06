@@ -1,0 +1,27 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^8.9.1",
+    "@cucumber/html-formatter": "^20.2.0",
+    "@cucumber/pretty-formatter": "^1.0.0",
+    "chai": "^4.3.7",
+    "chromedriver": "^109.0.0",
+    "pactum": "^3.3.2",
+    "require-dir": "^1.2.0",
+    "selenium-webdriver": "^4.7.1"
+  },
+  "dependencies": {
+    "geckodriver": "^3.2.0",
+    "jsdom": "^20.0.3",
+    "mailinator-client": "^1.0.3",
+    "moment": "^2.29.4",
+    "numeral": "^2.0.6",
+    "path": "^0.12.7"
+  }
+}
